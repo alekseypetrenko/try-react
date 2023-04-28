@@ -5,20 +5,11 @@ function ButtonPage() {
   const handleClick = () => {
     console.log(1555);
   };
-  const handleHover = () => {
-    console.log(32535435);
-  };
 
   return (
     <div>
       <div>
-        <Button
-          className="mb-5"
-          onClick={handleClick}
-          onMouseOver={handleHover}
-          primary
-          rounded
-        >
+        <Button onClick={handleClick} primary rounded>
           <GoBell /> Click me!!!
         </Button>
       </div>
